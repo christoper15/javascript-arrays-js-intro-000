@@ -16,7 +16,8 @@ return z;
 }
 
 function destructivelyAddElementToEndOfArray(x,y) {
-return x.push(y);
+x.push(y);
+return x;
 }
 
 function accessElementInArray(x,y) {
