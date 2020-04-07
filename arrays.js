@@ -10,7 +10,7 @@ return x.unshift(y);
 }
 
 function addElementToEndOfArray(x,y) {
-var z = [x, ... y];
+var z = [...x , y];
 return z;
 }
 
