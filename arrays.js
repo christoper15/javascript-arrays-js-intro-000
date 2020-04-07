@@ -22,6 +22,6 @@ function accessElementInArray(x,y) {
 return x[y];
 }
 
-function destructivelyRemoveElementFromEndOfArray(x,y) {
+function destructivelyRemoveElementFromEndOfArray(x) {
 return x.shift();
 }
