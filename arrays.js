@@ -25,7 +25,7 @@ return x[y];
 }
 
 function destructivelyRemoveElementFromEndOfArray(x) {
-x = x.slice(0,x.length-1);
+x.pop();
 return x;
 }
 
