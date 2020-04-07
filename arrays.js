@@ -11,7 +11,7 @@ return x;
 }
 
 function addElementToEndOfArray(x,y) {
-var z = [x, ...y];
+var z = [x, ... y];
 return z;
 }
 
