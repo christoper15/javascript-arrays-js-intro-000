@@ -5,7 +5,7 @@ var z = [y, ...x];
 return z;
 }
 
-var function destructivelyAddElementToBeginningOfArray(x,y) {
+function destructivelyAddElementToBeginningOfArray(x,y) {
 return x.unshift(y);
 }
 
