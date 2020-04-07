@@ -6,6 +6,7 @@ return z;
 }
 
 function destructivelyAddElementToBeginningOfArray(x,y) {
+var y;
 return x.unshift(y);
 }
 
