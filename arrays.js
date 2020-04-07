@@ -25,9 +25,11 @@ return x[y];
 }
 
 function destructivelyRemoveElementFromEndOfArray(x) {
-return x.shift();
+x.shift();
+return x;
 }
 
 function removeElementFromEndOfArray(x) {
-return x.slice(0,x.length-1);
+x.slice(0,x.length-1);
+return x;
 }
