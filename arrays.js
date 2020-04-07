@@ -30,8 +30,8 @@ return x;
 }
 
 function removeElementFromBeginningOfArray(x) {
-y = x.slice(0,1);
-return x;
+y = x.slice(1);
+return y;
 }
 
 function destructivelyRemoveElementFromEndOfArray(x) {
